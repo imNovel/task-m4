@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Telling Contest</title>
+
+    <style>
+        main {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .card{
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 5px;
+        }
+        .card h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+        .card label{
+            padding: 5px;
+        }
+        .card textarea{
+            padding: 8px;
+            margin: 10px;
+        }
+
+        .card select{
+            padding: 8px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .card input{
+            padding: 10px;
+            font-weight: bold;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <h2>Story telling contest feedback form</h2>
+            <form>
+                <label for="text">Share Your Story:</label><br>
+                <textarea rows="5" cols="30" name="" id=""></textarea><br>
+
+                <label for="text">Rate The Story: </label>
+                <select name="dropdown" id="">
+                    <option value="">Excellent</option>
+                    <option value="">Good</option>
+                    <option value="">Bad</option>
+                </select><br>
+                <input class="btn" type="button" value="Submit">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        body{
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .container {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+        }
+
+        .card {
+            border: 2px solid gray;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: -5px 5px 1px black;
+        }
+        .card img{
+            width: 500px;
+        }
+        .card a{
+            text-decoration: none;
+            font-weight: bold;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        .feedback {
+            margin-top: 30px;
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+        <section class="container">
+            
+                <h4>Search your image here: <input type="search" name="search" id="search" value="Cat">
+                    <input type="submit" value="search"><br><br>
+                </h4>
+                <img src="images/cat.jpg" alt="cat"><br>
+                <a href="#">For more click here</a>
+
+            
+        </section>
+        <section class="feedback">
+            <h2>Feedback Form:</h2>
+            <form action="">
+                <label for="name">Name:</label><br>
+                <input type="text"><br><br>
+
+                <label for="date">Date:</label><br>
+                <input type="date" name="date" id="date"><br><br>
+
+                <label for="textarea">Comment:</label><br>
+                <textarea cols="50" name="textarea" id="textarea"></textarea><br>
+
+                <input type="button" value="submit">
+            </form>
+        </section>
+    </div>
+    </main>
+</body>
+
+</html>
